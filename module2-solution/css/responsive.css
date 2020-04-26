@@ -3,24 +3,10 @@
   box-sizing: border-box;
 }
 
-
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 1.75em;
-}
-
-p {
-  margin-top:35px;
-  margin-bottom:15px;
-  margin-left:15px;
-  margin-right: 15px;
-}
-
-h1,p,div {
+h1,p {
   font-family: "Comic Sans MS";
-  text-overflow: clip;
-  overflow: hidden;
+  text-align: center;
+  margin: 35px 15px 15px 15px;
 }
 
 /* Simple Responsive Framework. */
@@ -35,31 +21,28 @@ h1,p,div {
   font-size: 1.25em;
   width: 33%;
   text-align: center;
-  margin: -2px -2px 0px 0px;
+  margin: -1px -1px 0px 0px;
 }
 
 .content {
   border: 1px solid black;
   background-color: #666666;
-  height: 150px;
-  margin-top: 50px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 50px 10px 10px 10px;
   color: black;
   position: relative;
 }
 
-.chickenstyle{
+#chicken{
   background-color: #D59898;
   color: black;
 }
 
-.beefstyle{
+#beef{
   background-color: #C14543;
   color: white;
 }
 
-.sushistyle{
+#sushi{
   background-color: #E5D198; 
   color: black; 
 }
