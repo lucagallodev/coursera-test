@@ -1,0 +1,244 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+#header-nav {
+  margin-bottom: 40px;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-brand h1,p{
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+
+.navbar-brand {
+  padding: 50px 15px 25px 15px;
+}
+
+
+#header-nav {
+  background-color: #2471a3;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+#logo-img {
+  background: url('../images/food.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0px 15px 10px 0;
+}
+
+#beef-img-div,#chicken-img-div,#sushi-img-div {
+  margin: 5px 5px 20px 5px;
+  position: relative; 
+  text-align: center;
+}
+
+#beef-img,#chicken-img,#sushi-img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a:hover {
+  background: #7092be;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+#nav-toggler {
+  background: unset;
+}
+
+#nav-toggler:hover {
+  background: #7092be;
+}
+
+#nav-toggler:focus {
+  outline: none;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone > a { /* Phone number */
+  text-align: right;
+  font-size: 2em;
+  padding-bottom: 0;
+}
+#phone > div { /* We Deliver */
+  text-align: right;
+  padding-right: 15px;
+}
+
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 40px 20px 5px 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #2471a3;
+    color: white;
+  }
+
+#xs-deliver {
+    display: block;
+    margin: 0 20px;
+    padding: auto;
+    color: #2471a3;
+}
+
+/* BODY */
+#main-content h3 {
+  text-align: center;
+}
+
+#home-tiles {
+  position: relative;
+}
+
+.content-tile {
+  color: white;
+  background-color: #2471a3;
+  border-radius: 30px 30px 30px;
+  padding: 5px 10px 20px 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+}
+
+.inner-tile {
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/* END OF BODY */
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 40px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #2471a3;
+  border-top: 0;
+  color:white;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #white;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+
+#gmaps {
+  color:white;
+  vertical-align:middle;
+  display: block;
+}
+
+/* END FOOTER */
+
+
+@media (max-width: 991px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/food_small.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+  /* End Header */
+
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 991px) {
+  /* Home Page */
+  .navbar-brand {
+    padding: 30px 15px 25px 15px;
+  }
+  /* End Home Page */
+}
+
+/********** Super extra small devices **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1,p { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  .hidden-xxs {
+    display: none;
+  }
+
+  .navbar-brand {
+    padding: 10px 15px 5px 15px;
+  }
+
+  .navbar-header {
+    clear: both;
+    height: 70px;
+  }
+
+  #call-btn > a {
+    font-size: 6vw;
+  }
+
+  #xs-deliver {
+    font-size: 4vw;
+  }
+
+  /* End Header */
+}
+
+
+
