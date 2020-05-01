@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+#ourmenuhead {
+  color: #2471a3;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: 30px;
+}
+
 .responsive {
   width: 100%;
   height: auto;
@@ -60,6 +66,7 @@
 #beef-img,#chicken-img,#sushi-img {
   max-width: 100%;
   vertical-align: middle;
+  border-radius: 30px 30px 30px 30px;
 }
 
 
@@ -122,9 +129,9 @@
 }
 
 /* BODY */
-#main-content h3 {
+/*#main-content h3 {
   text-align: center;
-}
+}*/
 
 #home-tiles {
   position: relative;
@@ -133,7 +140,7 @@
 .content-tile {
   color: white;
   background-color: #2471a3;
-  border-radius: 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px;
   padding: 5px 10px 20px 10px;
   text-align: justify;
   text-justify: inter-word;
@@ -142,6 +149,14 @@
 
 .inner-tile {
     padding: 10px 10px 10px 10px;
+}
+
+.backtotopspan{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 
 
